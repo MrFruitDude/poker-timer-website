@@ -3,72 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokerTimer - Your Professional Poker Tournament Timer</title>
+    <meta name="apple-itunes-app" content="app-id=6738396271, app-argument=https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271">
+    <title>PokerTimer – Modern Poker Tournament Control Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-M9UBHk8VITQW2N7DbStO2Qd6hwMRyYB9H9n1tFoZT3zh0+BTtPlqvGjufH6G+jD/adJzi10/rEydoo7dBDEz4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animations.css">
     <script src="js/main.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo">PokerTimer</a>
+            <a href="index.html" class="logo">
+                <span class="logo-mark">PT</span>
+                PokerTimer</a>
             <div class="nav-links">
-                <a href="#features">Features</a>
-                <a href="#download">Download</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="contact.html">Contact</a>
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#workflow">Workflow</a>
+                <a class="nav-link" href="#download">Download</a>
+                <a class="nav-link" href="privacy.html">Privacy</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </div>
+            <a class="nav-cta" href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271" target="_blank" rel="noopener">Get PokerTimer</a>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Professional Poker Tournament Management</h1>
-            <p>Take your poker games to the next level with PokerTimer</p>
-            <a href="#download" class="cta-button">Download Now</a>
-        </div>
-    </header>
-
-    <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">Premium Features</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon-wrapper">
-                        <i class="fas fa-cog icon"></i>
+    <main>
+        <header class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy" data-animate>
+                    <span class="eyebrow">Tournament OS</span>
+                    <h1>Every blind level, break, and payout handled without the guesswork.</h1>
+                    <p class="lead">PokerTimer is the pro-grade control center for home games and casinos alike—designed for iPhone, iPad, and AirPlay displays.</p>
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271" target="_blank" rel="noopener" class="cta-button"><i class="fa-solid fa-arrow-down"></i> Download on the App&nbsp;Store</a>
+                        <a href="#features" class="secondary-button"><i class="fa-solid fa-circle-play"></i> See it in action</a>
                     </div>
-                    <h3>Custom Tournaments</h3>
-                    <p>Create professional tournament structures with customizable blind levels, breaks, and payouts. Perfect for any stakes and player count.</p>
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-value">+120</div>
+                            <div class="stat-label">preset blind structures</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">0 sec</div>
+                            <div class="stat-label">delay when switching levels</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">24/7</div>
+                            <div class="stat-label">reliability on any display</div>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon-wrapper">
-                        <i class="fas fa-clock icon"></i>
+                <div class="hero-visual" data-animate>
+                    <div class="device-shell">
+                        <div class="board-row"><span>Montreal Invitational</span><span>12 tables</span></div>
+                        <div class="timer-display">12:45</div>
+                        <p>Current level • 500 / 1K • Ante 1K</p>
+                        <div class="level-chips">
+                            <span class="chip">Automatic breaks</span>
+                            <span class="chip">Two-tone audio cues</span>
+                        </div>
                     </div>
-                    <h3>Pro Timer</h3>
-                    <p>Crystal-clear display with audio alerts and visual notifications. Never miss a blind level change with our premium tournament clock.</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon-wrapper">
-                        <i class="fas fa-chart-line icon"></i>
+                    <div class="floating-card" data-animate>
+                        <h4>Upcoming</h4>
+                        <div class="progress-track">
+                            <span>Level 8 • 1K / 2K</span>
+                            <span>Break • 10 min snacks</span>
+                            <span>Color-up • remove 500s</span>
+                        </div>
                     </div>
-                    <h3>Advanced Statistics</h3>
-                    <p>Track your tournament history with detailed analytics. Gain insights into player performance and tournament patterns.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </header>
+
+        <section id="features" class="section" data-animate>
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Capabilities</span>
+                    <h2>Built for tournament directors, effortless for hosts.</h2>
+                    <p>Modern UI, instant edits, and live stats mean you focus on the table—not a spreadsheet.</p>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <div class="icon-circle"><i class="fa-solid fa-gauge-high"></i></div>
+                        <h3>Live Control Desk</h3>
+                        <p>Edit blinds, antes, or payout charts while the clock keeps running. Undo mistakes instantly.</p>
+                        <ul class="feature-list">
+                            <li>Quick keyboard shortcuts</li>
+                            <li>Break overlays for stream displays</li>
+                            <li>Real-time player notifications</li>
+                        </ul>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-circle"><i class="fa-solid fa-layer-group"></i></div>
+                        <h3>Reusable Structures</h3>
+                        <p>Load tried-and-true templates or craft something for a 6-max turbo. Save everything to your vault.</p>
+                        <ul class="feature-list">
+                            <li>Smart chip color recommendations</li>
+                            <li>Auto-balanced payouts</li>
+                            <li>Quick share via QR</li>
+                        </ul>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-circle"><i class="fa-solid fa-wave-square"></i></div>
+                        <h3>Atmospheric Audio</h3>
+                        <p>Clean cues with spatial audio support keep the room synced without being abrasive.</p>
+                        <ul class="feature-list">
+                            <li>Assignable speakers</li>
+                            <li>Automatic volume ducking</li>
+                            <li>Custom voice packs</li>
+                        </ul>
+                    </article>
+                    <article class="feature-card">
+                        <div class="icon-circle"><i class="fa-solid fa-chart-simple"></i></div>
+                        <h3>Tournament Intelligence</h3>
+                        <p>Track average stack, blinds-per-hour, and ROI trends to refine every series.</p>
+                        <ul class="feature-list">
+                            <li>Export-ready summaries</li>
+                            <li>Session tagging</li>
+                            <li>Cloud backups optional</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflow" class="section" data-animate>
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Flow</span>
+                    <h2>Four screens to run a flawless night.</h2>
+                    <p>The PokerTimer workflow keeps you two levels ahead, from seating players to shipping payouts.</p>
+                </div>
+                <div class="split-panel">
+                    <div class="panel-card">
+                        <h3>Command Palette</h3>
+                        <p>Every control lives in one palette. Search for “double ante”, “bust player”, or “pause clock” and it just happens.</p>
+                        <div class="info-pill">Hands-free voice controls (beta)</div>
+                        <div class="info-pill">Native AirPlay + Chromecast</div>
+                    </div>
+                    <div class="panel-card">
+                        <div class="timeline">
+                            <div class="timeline-step">
+                                <h3>01 • Prep</h3>
+                                <p>Import a template, set your buy-in, and auto-build payouts with one slider.</p>
+                            </div>
+                            <div class="timeline-step">
+                                <h3>02 • Run</h3>
+                                <p>Display the tournament clock anywhere while you make adjustments from your phone.</p>
+                            </div>
+                            <div class="timeline-step">
+                                <h3>03 • Wrap</h3>
+                                <p>Save the final table, export stats, and send a recap to the group before the chips are cased.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="section download" data-animate>
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Download</span>
+                    <h2>Ready for the next game night.</h2>
+                    <p>PokerTimer is available exclusively for iPhone and iPad. Works offline, syncs via optional iCloud.</p>
+                </div>
+                <div class="download-grid">
+                    <div class="platform-card">
+                        <strong>iOS &amp; iPadOS</strong>
+                        <p>HDR-ready layouts, dark mode, live activities, and effortless AirPlay projection.</p>
+                        <a href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271" target="_blank" rel="noopener"><i class="fa-brands fa-app-store-ios"></i> View on the App Store</a>
+                    </div>
+                </div>
+                <p class="meta-line">Need help staging PokerTimer at your venue? <a href="contact.html">Talk with us</a> for concierge onboarding.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 PokerTimer. Created by Simon Rotzer in Montreal</p>
+            <p>&copy; 2024 PokerTimer. Crafted in Montreal.</p>
             <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
+                <a href="privacy.html">Privacy</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
     </footer>
 </body>
-</html> 
+</html>

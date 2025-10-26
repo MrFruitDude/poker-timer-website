@@ -3,39 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - PokerTimer</title>
+    <meta name="apple-itunes-app" content="app-id=6738396271, app-argument=https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271">
+    <title>Contact PokerTimer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-M9UBHk8VITQW2N7DbStO2Qd6hwMRyYB9H9n1tFoZT3zh0+BTtPlqvGjufH6G+jD/adJzi10/rEydoo7dBDEz4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animations.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo">PokerTimer</a>
+            <a href="index.html" class="logo">
+                <span class="logo-mark">PT</span>
+                PokerTimer</a>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="privacy.html">Privacy</a>
+                <a class="nav-link" href="index.html#features">Features</a>
+                <a class="nav-link" href="index.html#workflow">Workflow</a>
+                <a class="nav-link" href="index.html#download">Download</a>
+                <a class="nav-link" href="privacy.html">Privacy</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </div>
+            <a class="nav-cta" href="https://apps.apple.com/us/app/poker-timer-blinds-rounds/id6738396271" target="_blank" rel="noopener">Get PokerTimer</a>
         </div>
     </nav>
 
-    <div class="contact-container">
-        <div class="container">
-            <h1 class="page-title">Get in Touch</h1>
-            <p class="contact-intro">Have questions or feedback? We'd love to hear from you.</p>
-            
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="info-card">
-                        <h3>Location</h3>
-                        <p>Montreal, Canada</p>
+    <main>
+        <section class="subpage-hero">
+            <div class="container" data-animate>
+                <span class="eyebrow">Contact</span>
+                <h1>We reply faster than a blind level change.</h1>
+                <p>Product demo, partnership, or support—we read every note from Montreal.</p>
+            </div>
+        </section>
+
+        <section class="section" data-animate>
+            <div class="container contact-grid">
+                <div class="contact-card">
+                    <h2>Direct line</h2>
+                    <p class="lead">Expect a response within 24 hours. We keep support personal and detailed.</p>
+                    <div class="contact-methods">
+                        <div>
+                            <span>Email</span>
+                            <a class="nav-link" href="mailto:hello@pokertimer.app">hello@pokertimer.app</a>
+                        </div>
+                        <div>
+                            <span>Location</span>
+                            <p>Montreal, Canada</p>
+                        </div>
                     </div>
-                    <div class="info-card">
-                        <h3>Response Time</h3>
-                        <p>Within 24 hours</p>
+                    <div class="info-grid">
+                        <div class="info-pill">
+                            <strong>Office hours</strong><br>Mon – Fri, 9am-6pm EST
+                        </div>
+                        <div class="info-pill">
+                            <strong>Typical reply</strong><br>&lt; 12 hours
+                        </div>
                     </div>
                 </div>
 
-                <div class="contact-form">
+                <div class="form-card">
                     <form action="https://formspree.io/f/myzybebe" method="POST">
                         <div class="form-group">
                             <label for="name">Name</label>
@@ -53,21 +82,21 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" required></textarea>
                         </div>
-                        <button type="submit" class="submit-button">Send Message</button>
+                        <button type="submit" class="cta-button submit-button">Send message</button>
                     </form>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 PokerTimer. Created by Simon Rotzer in Montreal</p>
+            <p>&copy; 2024 PokerTimer. Crafted in Montreal.</p>
             <div class="footer-links">
-                <a href="privacy.html">Privacy Policy</a>
+                <a href="privacy.html">Privacy</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
     </footer>
 </body>
-</html> 
+</html>
